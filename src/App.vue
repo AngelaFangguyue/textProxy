@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <div>测试请求</div>
     <button @click="getMess">点击后，会请求》http://api.douban.com/v2/movie/top250</button>
     <br>
     <button @click="getMess1">点击后，会请求》https://movie.douban.com/j/search_subjects</button>
